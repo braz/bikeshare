@@ -209,7 +209,7 @@ getData <- function(network = 'citibikenyc'){
 require(rCharts)
 L1 <- Leaflet$new()
 L1$tileLayer(provider = 'Stamen.TonerLite')
-L1$setView(c(40.73029, -73.99076), 13)
+L1$setView(c(53.33749, -6.26199), 13)
 L1$set(width = 1200, height = 600)
 ```
 

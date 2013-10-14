@@ -3,4 +3,4 @@ payload = create_gist(
   description = 'Bike Share Shiny App'
 )
 
-post_gist(payload, viewer = 'http://gist.github.com/ramnathv/')
+post_gist(payload, viewer = 'http://gist.github.com/braz/')

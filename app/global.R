@@ -53,7 +53,7 @@ getCenter <- function(nm, networks){
 
 
 ## @knitr plotMap
-plotMap <- function(network = 'citibikenyc', width = 1600, height = 800){
+plotMap <- function(network = 'dublin', width = 1600, height = 800){
   data_ <- getData(network); center_ <- getCenter(network, networks)
   L1 <- Leaflet$new()
   L1$tileLayer(provider = 'Stamen.TonerLite')
